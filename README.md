@@ -23,18 +23,18 @@ log---error_log.txt 是用于记录脚本重大错误时候使用！由系统自
 
 ### 1.2 如何配置？
 
-``userids.txt``用户和密码文件格式
+1、``userids.txt``用户和密码文件格式
 ```txt
 Email:passwd:rfcode #按照这个格式输入，这行可以删除！
 dandan@gmuali.com:dandan:dandan
 ```
 
-``token.txt``用户id格式
-1、由脚本自动生成
 
-2、手动抓取，打开https://app.minionlab.ai/页面，登录，开启开发者模式(F12)->网络->myInfo的地址点击->响应->找到UUID
+2、``token.txt``用户id格式由脚本自动生成
 
-3、``proxy.txt``代理文件格式
+3、手动抓取，打开https://app.minionlab.ai/页面，登录，开启开发者模式(F12)->网络->myInfo的地址点击->响应->找到UUID
+
+4、``proxy.txt``代理文件格式
 支持http和socks5协议的代理，一行一个
 
 ### 1.3 如何运行？
