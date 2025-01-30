@@ -34,7 +34,7 @@ dandan@gmuali.com:dandan:dandan
 
 2、手动抓取，打开https://app.minionlab.ai/页面，登录，开启开发者模式(F12)->网络->myInfo的地址点击->响应->找到UUID
 
-``proxy.txt``代理文件格式
+3、``proxy.txt``代理文件格式
 支持http和socks5协议的代理，一行一个
 
 ### 1.3 如何运行？
